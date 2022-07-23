@@ -14,6 +14,9 @@
   --btn-bg-color: #2196f3;
   --rbtn-bg-color: #f5f4fa;
 }
+
+/*----------------- GLOBAL STYLES -----------------*/
+
 body {
   color: var(--primary-font-color);
 
@@ -75,6 +78,9 @@ body {
   padding: 0 15px;
   /* outline: 1px solid green; */
 }
+
+/*----------------- HEADER -----------------*/
+
 .header {
   display: flex;
   align-items: center;
@@ -115,7 +121,6 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -123,6 +128,11 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+}
+.contact-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contact-item:not(:last-child) {
   margin-right: 50px;
@@ -134,7 +144,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* ----------------- HERO -----------------*/
+/*----------------- HERO -----------------*/
 
 .hero {
   background-color: var(--secondary-bg-color);
