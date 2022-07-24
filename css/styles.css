@@ -157,8 +157,9 @@ body {
   text-align: center;
 }
 .hero-title {
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 30px;
+  width: 696px;
   color: var(--white-font-color);
 
   font-weight: 900;
@@ -197,6 +198,10 @@ body {
 
 /*------------- WORK SECTIOM -------------*/
 
+.section-work {
+  padding-top: 0;
+}
+
 .work-header {
   margin: 0;
   margin-bottom: 50px;
@@ -222,6 +227,10 @@ body {
 }
 
 /*------------- TEAM SECTION -------------*/
+
+.section-team {
+  padding-top: 0;
+}
 
 .team-header {
   margin: 0;
@@ -305,7 +314,7 @@ body {
 
 /* ----------------- PAGE PORTFOLIO -----------------*/
 
-/* ----------------- SECTION WORK -------------------*/
+/* ----------------- SECTION CARD -------------------*/
 
 /* ----------------- FILTER CARD --------------------*/
 .filter-list {
@@ -350,6 +359,7 @@ body {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid var(--border-color);
 }
 .card-item:nth-child(3n) {
   margin-right: 0;
@@ -359,6 +369,7 @@ body {
 }
 .card-item img {
   display: block;
+  width: 100%;
 }
 .card-title {
   margin: 20px 24px 4px 24px;
