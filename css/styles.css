@@ -41,8 +41,19 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
@@ -115,9 +126,7 @@ body {
 }
 .nav-list {
   display: flex;
-  margin: 0;
   margin-left: 93px;
-  padding: 0;
 
   font-weight: 500;
   line-height: 1.14;
@@ -133,8 +142,6 @@ body {
 }
 .contact-list {
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 .contact-list .link {
   display: block;
@@ -179,7 +186,6 @@ body {
 
 .section-quality-list {
   display: flex;
-  margin: 0;
 }
 .section-quality-item {
   width: calc((100% - 90px) / 4);
@@ -188,7 +194,6 @@ body {
   margin-right: 30px;
 }
 .section-quality-title {
-  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -198,7 +203,6 @@ body {
 }
 .section-quality-text {
   color: var(--secondary-font-color);
-  margin: 0;
 }
 
 /*------------- WORK SECTIOM -------------*/
@@ -208,7 +212,6 @@ body {
 }
 
 .work-header {
-  margin: 0;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -219,8 +222,6 @@ body {
 }
 .work-list {
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 .work-item {
   width: calc((100% - 60px) / 3);
@@ -235,7 +236,6 @@ body {
 /*------------- TEAM SECTION -------------*/
 
 .team-header {
-  margin: 0;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -245,8 +245,6 @@ body {
 }
 .team-list {
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 .team-item {
   flex-basis: calc(100% / 4 - 30px);
@@ -265,7 +263,6 @@ body {
   padding-bottom: 30px;
 }
 .team-title {
-  margin: 0;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -275,7 +272,6 @@ body {
   text-align: center;
 }
 .team-text {
-  margin: 0;
   color: var(--secondary-font-color);
 
   font-size: 16px;
@@ -304,10 +300,6 @@ body {
   margin-bottom: 9px;
 }
 
-.footer-list {
-  margin: 0;
-  padding: 0;
-}
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -324,9 +316,7 @@ body {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-top: 0;
   margin-bottom: 50px;
-  padding: 0;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -357,7 +347,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
-  padding: 0;
 }
 .card-item {
   flex-basis: calc(100% / 3 - 30px);
@@ -372,7 +361,6 @@ body {
   padding: 20px 24px;
 }
 .card-title {
-  margin: 0;
   margin-bottom: 4px;
 
   font-weight: 700;
@@ -381,7 +369,6 @@ body {
   letter-spacing: 0.06em;
 }
 .card-text {
-  margin: 0;
   color: var(--secondary-font-color);
 
   font-size: 16px;
